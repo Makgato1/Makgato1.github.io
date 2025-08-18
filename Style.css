@@ -1,114 +1,75 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MICT SETA Recruitment System</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS -->
+</head>
+<body>
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #e615ca;
-}
+  <!-- Header & Navigation -->
+  <header>
+    <nav>
+      <h1>Recruitment System</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-/* Navigation */
-header {
-    background: #222;
-    color: #f306ac;
-    padding: 1rem 2rem;
-}
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h2>Welcome to <span>MICT SETA</span> Recruitment</h2>
+    <p>Explore opportunities and connect with us.</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1">
+        <h3>Recruitment Portal</h3>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2">
+        <h3>Candidate Management</h3>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 3">
+        <h3>Job Matching</h3>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </section>
 
-nav ul {
-    display: flex;
-    list-style: none;
-}
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      The MICT SETA Recruitment System is designed to simplify the hiring process,
+      making it easier for candidates to apply and for employers to find the right talent.
+    </p>
+  </section>
 
-nav ul li a {
-    color: #fd03b2;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-}
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@mictseta.org</p>
+    <p>Phone: +27 11 123 4567</p>
+  </section>
 
-nav ul li a:hover {
-    background: #f306f3;
-    border-radius: 5px;
-}
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MICT SETA Recruitment System. All rights reserved.</p>
+  </footer>
 
-/* Hero Section */
-.hero {
-    background: linear-gradient(to right, #6a11cb, #f9f9fa);
-    color: #eb07d8;
-    padding: 5rem 2rem;
-    text-align: center;
-}
-
-.hero span {
-    color: yellow;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 1rem;
-    background: #f105f1;
-    color: #333;
-    padding: 0.7rem 1.5rem;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.btn:hover {
-    background: #6d6b6b;
-}
-
-/* Sections */
-section {
-    padding: 2rem;
-    text-align: center;
-}
-
-/* Project Grid */
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
-}
-
-.project-card {
-    background: #080808;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.project-card img {
-    max-width: 100%;
-    border-radius: 5px;
-}
-
-.project-card a {
-    display: inline-block;
-    margin-top: 0.5rem;
-    color: #f10db8;
-    text-decoration: none;
-}
-
-.project-card a:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    background: #222;
-    color: #f306cc;
-    padding: 1rem;
-    text-align: center;
-    margin-top: 2rem;
-}
+</body>
+</html>
